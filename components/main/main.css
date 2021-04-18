@@ -1,0 +1,8 @@
+@import "./../../assets/css/main.css";
+
+.main {
+    background-color: var(--dove);
+    min-height: calc(100% - 264px - 300px);
+    border-top: 1px solid var(--grey_2);
+    border-bottom: 1px solid var(--grey_2);
+}
