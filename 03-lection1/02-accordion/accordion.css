@@ -1,7 +1,4 @@
 /* Стилизация аккордеона */
-* {
-    box-sizing: border-box;
-}
 
 summary:focus{
     outline: none;
