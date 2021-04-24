@@ -1,0 +1,14 @@
+@import '../../assets/fonts/fonts.css';
+
+.header {
+    display: block;
+}
+
+.header__text{
+    font-family: 'Inter Medium';
+    font-size: 50px;
+    line-height: 64px;
+    color: var(--black);
+    display: inline-block;
+    padding: 100px 160px;
+}
