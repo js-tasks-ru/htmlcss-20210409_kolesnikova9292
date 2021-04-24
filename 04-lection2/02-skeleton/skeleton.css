@@ -1,11 +1,12 @@
 .skeleton {
     width: 579px;
-    height: 192px;
+    min-height: 192px;
     background: var(--white);
     border: 1px solid var(--grey_3);
     border-radius: 8px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     padding: 24px;
 }
 
@@ -48,6 +49,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    min-height: 64px;
 }
 
 .skeleton__item {
