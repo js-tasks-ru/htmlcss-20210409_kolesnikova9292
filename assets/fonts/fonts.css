@@ -1,1 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@font-face{
+    font-family: 'Roboto';
+    src: url("Roboto/Roboto-Black.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Roboto Italic';
+    src: url("Roboto/Roboto-Italic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: 'Roboto Bold';
+    src: url("Roboto/Roboto-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Roboto Thin';
+    src: url("Roboto/Roboto-Thin.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Inter';
+    src: url("Inter/Inter-Medium.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Inter Bold';
+    src: url("Inter/Inter-Bold.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Inter Light';
+    src: url("Inter/Inter-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
