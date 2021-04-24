@@ -14,7 +14,7 @@
 }
 
 .footer__text {
-    font-family: 'Inter Bold';
+    font-family: 'Inter Medium';
     font-size: 38px;
     line-height: 48px;
     color: var(--black);
@@ -24,7 +24,7 @@
 
 .footer__content {
     display: block;
-    font-family: 'Inter';
+    font-family: 'Inter Regular';
     text-align: center;
     line-height: 24px;
 }
