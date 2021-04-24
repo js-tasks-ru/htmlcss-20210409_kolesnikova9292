@@ -1,1 +1,36 @@
 /* Стилизация аккордеона */
+
+summary:focus{
+    outline: none;
+}
+
+details > summary::-webkit-details-marker {
+    display: none;
+}
+
+.accordion__item {
+    margin-bottom: 8px;
+    border: 1px solid #ACB5BD;
+    border-radius: 8px;
+}
+
+.accordion__item[open] {
+}
+
+.accordion__item:last-child {
+    margin-bottom: 0;
+}
+
+.accordion__summary {
+    display: block;
+    padding: 24px 32px;
+    cursor: pointer;
+    list-style: none;
+}
+
+.accordion__content {
+    display: block;
+    padding: 0 32px;
+    padding-bottom: 24px;
+    margin: 0;
+}
