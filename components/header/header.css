@@ -1,9 +1,11 @@
+@import '../../assets/fonts/fonts.css';
+
 .header {
     display: block;
 }
 
 .header__text{
-    font-family: 'Inter';
+    font-family: 'Inter Bold'!important;
     font-size: 50px;
     line-height: 64px;
     color: var(--black);
