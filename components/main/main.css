@@ -5,6 +5,55 @@
     flex-grow: 1;
 }
 
+.main__content {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 56px;
+    width: 100%;
+    place-self: center;
+    grid-template-areas: "menu component" ". component";
+    padding: 32px;
+    height: 100%;
+}
+
+.main__template {
+    grid-area: main;
+}
+
+.menu {
+    grid-area: menu;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-row-gap: 20px;
+}
+
+.menu__header {
+    font-family: 'Inter Medium';
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.menu__items {
+    display: grid;
+    grid-template-rows: repeat(6, auto);
+    grid-row-gap: 10px;
+}
+
+.component {
+    grid-area: component;
+    background-color: var(--white);
+    padding: 32px;
+    box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+    border-radius: 12px;
+    height: 100%;
+}
+
+.component__header {
+    font-family: 'Inter Medium';
+    font-size: 28px;
+    line-height: 38px;
+}
 .card {
     width: 350px;
     height: 367px;

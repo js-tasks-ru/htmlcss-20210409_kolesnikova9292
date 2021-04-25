@@ -60,9 +60,22 @@ h6 {
     flex-direction: column;
 }
 
+.wrapper__template {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: "header" "main" "footer";
+
+}
+
 .container {
     max-width: 1110px;
     margin: auto;
+}
+
+.container__template {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
 }
 
 :root {
