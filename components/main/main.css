@@ -8,7 +8,6 @@
 .main__content {
     display: grid;
     grid-template-columns: auto 1fr;
-    grid-template-rows: 1fr 1fr;
     grid-column-gap: 56px;
     width: 100%;
     place-self: center;
@@ -17,8 +16,9 @@
     height: 100%;
 }
 
-.main__template {
+.main--template {
     grid-area: main;
+    border: none;
 }
 
 .menu {
@@ -26,6 +26,7 @@
     display: grid;
     grid-template-rows: auto auto auto;
     grid-row-gap: 20px;
+    align-self: self-start;
 }
 
 .menu__header {
@@ -40,10 +41,14 @@
     grid-row-gap: 10px;
 }
 
+.menu__item:last-child {
+    margin-top: 30px;
+}
+
 .component {
     grid-area: component;
     background-color: var(--white);
-    padding: 32px;
+    padding: 48px;
     box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
     border-radius: 12px;
     height: 100%;
@@ -82,4 +87,9 @@
     color: var(--black);
     display: block;
     margin-top: auto;
+}
+
+.histogram__wrapper {
+    margin: 24px 0;
+    width: 300px;
 }

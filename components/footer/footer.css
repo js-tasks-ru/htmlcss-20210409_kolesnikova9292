@@ -13,6 +13,10 @@
     padding: 50px 0;
 }
 
+.footer__descr--template {
+    display: grid;
+}
+
 .footer__text {
     font-family: 'Inter Medium';
     font-size: 38px;
@@ -26,9 +30,13 @@
     display: block;
     font-family: 'Inter Regular';
     text-align: center;
-    line-height: 24px;
+    line-height: 18px;
+    color: var(--grey_3);
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
 }
 
-.footer__template {
+.footer--template {
     grid-area: footer;
 }
