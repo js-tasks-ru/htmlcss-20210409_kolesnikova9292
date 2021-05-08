@@ -72,11 +72,11 @@ h6 {
     margin: auto;
 }
 
-.container--template {
+.container--grid {
     height: 100%;
     display: grid;
     grid-template-rows: 1fr;
-    grid-template-columns: minmax(1110px, 300px);
+    grid-template-columns: minmax(300px, 1110px);
     justify-content: center;
 }
 
