@@ -60,7 +60,7 @@ h6 {
     flex-direction: column;
 }
 
-.template-wrapper {
+.wrapper-template {
     display: grid;
     grid-template-rows: auto 1fr auto;
     grid-template-areas: "header" "main" "footer";

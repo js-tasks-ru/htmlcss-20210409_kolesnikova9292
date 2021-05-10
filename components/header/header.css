@@ -2,6 +2,7 @@
 
 .header {
     display: block;
+    grid-area: header;
 }
 
 .header__text{
@@ -15,8 +16,4 @@
 
 .header__block {
     min-height: 82px;
-}
-
-.header-template {
-    grid-area: header;
 }

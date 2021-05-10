@@ -3,6 +3,7 @@
     border-top: 1px solid var(--grey_2);
     border-bottom: 1px solid var(--grey_2);
     flex-grow: 1;
+    grid-area: main;
 }
 
 .main__content {
@@ -16,8 +17,7 @@
     height: 100%;
 }
 
-.template-main {
-    grid-area: main;
+.main-template {
     border: none;
 }
 
