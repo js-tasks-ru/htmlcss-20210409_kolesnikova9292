@@ -5,23 +5,6 @@
     flex-grow: 1;
 }
 
-.main__content {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    grid-column-gap: 56px;
-    width: 100%;
-    place-self: center;
-    grid-template-areas: "menu component" ". component";
-    padding: 32px;
-    height: 100%;
-}
-
-.main-template {
-    border: none;
-    grid-area: main;
-    background-color: var(--dove);
-}
-
 .menu {
     grid-area: menu;
     display: grid;
