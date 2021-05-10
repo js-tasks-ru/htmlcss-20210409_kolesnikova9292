@@ -17,6 +17,6 @@
     min-height: 82px;
 }
 
-.header--template {
+.header-template {
     grid-area: header;
 }

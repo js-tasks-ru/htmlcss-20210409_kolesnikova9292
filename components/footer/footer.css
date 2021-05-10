@@ -13,7 +13,7 @@
     padding: 50px 0;
 }
 
-.footer__descr--template {
+.footer__descr-template {
     display: grid;
 }
 
@@ -37,6 +37,6 @@
     text-transform: uppercase;
 }
 
-.footer--template {
+.template-footer {
     grid-area: footer;
 }

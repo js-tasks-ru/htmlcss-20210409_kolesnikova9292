@@ -16,7 +16,7 @@
     height: 100%;
 }
 
-.main--template {
+.template-main {
     grid-area: main;
     border: none;
 }
