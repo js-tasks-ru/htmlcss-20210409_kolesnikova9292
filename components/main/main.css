@@ -3,7 +3,6 @@
     border-top: 1px solid var(--grey_2);
     border-bottom: 1px solid var(--grey_2);
     flex-grow: 1;
-    grid-area: main;
 }
 
 .main__content {
@@ -19,6 +18,8 @@
 
 .main-template {
     border: none;
+    grid-area: main;
+    background-color: var(--dove);
 }
 
 .menu {
