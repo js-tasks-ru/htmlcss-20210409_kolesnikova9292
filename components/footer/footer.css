@@ -1,7 +1,7 @@
 @import '../../assets/fonts/fonts.css';
 
 .footer {
-
+    grid-area: footer;
 }
 
 .footer__descr {
@@ -11,6 +11,13 @@
     max-width: 640px;
     margin: 0 auto;
     padding: 50px 0;
+}
+
+.footer__descr-template {
+    display: grid;
+    padding: 50px 0;
+    grid-template-columns: minmax(auto, 640px);
+    justify-content: center;
 }
 
 .footer__text {
@@ -26,5 +33,9 @@
     display: block;
     font-family: 'Inter Regular';
     text-align: center;
-    line-height: 24px;
+    line-height: 18px;
+    color: var(--grey_3);
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
 }
