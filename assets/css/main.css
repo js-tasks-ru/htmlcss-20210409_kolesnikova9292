@@ -67,6 +67,10 @@ h6 {
     min-height: 100vh;
 }
 
+.wrapper-template header {
+    background-color: var(--dove);
+}
+
 .container {
     max-width: 1110px;
     margin: auto;
@@ -93,6 +97,30 @@ h6 {
     grid-template-areas: "menu component";
     grid-column-gap: 56px;
     padding: 32px;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 768px) {
+    .wrapper-aside-main {
+        grid-template-columns: 1fr;
+        grid-template-areas: "component";
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+
 }
 
 :root {

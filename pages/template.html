@@ -8,13 +8,85 @@
     <link rel="stylesheet" href="../components/header/header.css">
     <link rel="stylesheet" href="../components/main/main.css">
     <link rel="stylesheet" href="../components/footer/footer.css">
+    <link rel="stylesheet" href="../components/navigation/navigation.css">
+    <link rel="stylesheet" href="../components/mobile-menu/mobile-menu.css">
     <link rel="stylesheet" href="../04-lection2/01-histogram/histogram.css">
 </head>
 <body>
 <div class="wrapper-template">
     <header class="header">
         <div class="container-grid">
-            <div class="header__block"></div>
+            <div class="header__block">
+                <button class="header__mobile-menu">
+                    <span class="header__stick"></span>
+                    <span class="header__stick"></span>
+                    <span class="header__stick"></span>
+
+
+                </button>
+                <div class="mobile-menu">
+                    <div class="mobile-menu__header">
+                        <button class="mobile-menu__cross">
+                            <div class="mobile-menu__stick mobile-menu__stick--vertical"></div>
+                            <div class="mobile-menu__stick mobile-menu__stick--horizontal"></div>
+                        </button>
+                        <div class="header__logo">
+                            <div class="header__square"></div>
+                            <div class="header__round"></div>
+                            <div class="header__triangle"></div>
+                        </div>
+                    </div>
+                    <div class="mobile-menu__mode">
+                        <span class="mobile-menu__mode-name">Dark mode</span>
+                    </div>
+                    <div class="mobile-menu__elements">
+                        <span class="mobile-menu__text">Elements</span>
+                        <ul class="mobile-menu__list">
+                            <li class="mobile-menu__item">Avatar</li>
+                            <li class="mobile-menu__item mobile-menu__item--active">Custom form elements</li>
+                            <li class="mobile-menu__item">Button</li>
+                            <li class="mobile-menu__item">Avatar</li>
+                            <li class="mobile-menu__item">Custom form elements</li>
+                            <li class="mobile-menu__item">Button</li>
+                        </ul>
+                    </div>
+                    <div class="mobile-menu__containers">
+                        <span class="mobile-menu__text">Containers</span>
+                        <ul class="mobile-menu__list">
+                            <li class="mobile-menu__item">Avatar</li>
+                            <li class="mobile-menu__item">Custom form elements</li>
+                            <li class="mobile-menu__item">Button</li>
+                            <li class="mobile-menu__item">Avatar</li>
+                            <li class="mobile-menu__item">Custom form elements</li>
+                            <li class="mobile-menu__item">Button</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="header__logo">
+                    <div class="header__square"></div>
+                    <div class="header__round"></div>
+                    <div class="header__triangle"></div>
+                </div>
+
+
+
+
+                <nav class="navigation">
+                    <ul class="navigation__list">
+                        <li class="navigation__item">
+                            <a href="#" class="navigation__link navigation__link--active">Components</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="#" class="navigation__link">About</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="#" class="navigation__link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
         </div>
     </header>
     <div class="container-grid container-grid--area">
