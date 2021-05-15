@@ -55,6 +55,14 @@
     align-items: center;
 }
 
+.card .calendar {
+    align-self: stretch;
+}
+
+.card--with-calendar {
+    padding: 20px 40px;
+}
+
 .card__wrapper {
     display: flex;
     flex-wrap: wrap;
