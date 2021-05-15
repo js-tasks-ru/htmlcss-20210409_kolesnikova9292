@@ -116,7 +116,7 @@
     width:100%;
     background-color: var(--dove);
     padding: 10px;
-    //display: none;
+    display: none;
 }
 
 .mobile-menu__header {
