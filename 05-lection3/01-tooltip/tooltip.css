@@ -43,22 +43,7 @@
     order: 2;
     width: 1.5em;
     height: 1.5em;
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translate(-50%, 0);
-}
-
-.tooltip__icon:after {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 1.5em;
-    height: 1.5em;
-    background: url('../../assets/icons/css_sprite_question.png') -10px -10px;
+    background: url('../../assets/icons/css_sprite_question.png') -10px -10px
 }
 
 .tooltip__icon:hover + .tooltip__cloud {
