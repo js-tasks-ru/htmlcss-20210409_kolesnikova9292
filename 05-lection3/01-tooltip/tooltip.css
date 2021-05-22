@@ -1,0 +1,51 @@
+.tooltip__cloud {
+    padding: 0.8em 1.5em;
+    background-color: var(--blue);
+    display: inline-block;
+    border-radius: 0.5em;
+    color: var(--grey_2);
+    font-size: 1em;
+    line-height: 1.5em;
+    position: relative;
+    margin-bottom: 0.5em;
+    order: 1;
+    visibility: hidden;
+}
+
+.tooltip__cloud:after {
+    content: "";
+    height: 0;
+    width: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 3.1em;
+    left: 45%;
+    border: 0.4em solid transparent;
+    border-top-color: var(--blue);
+}
+
+.tooltip {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.tooltip__text {
+    padding: 1em;
+    border: 1px solid var(--black);
+    border-radius: 0.5em;
+    display: none;
+    margin: 0.5em;
+}
+
+.tooltip__icon {
+    order: 2;
+    width: 1.5em;
+    height: 1.5em;
+    background: url('../../assets/icons/css_sprite_question.png') -10px -10px
+}
+
+.tooltip__icon:hover + .tooltip__cloud {
+    visibility: visible;
+}
