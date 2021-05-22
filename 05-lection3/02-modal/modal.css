@@ -1,0 +1,50 @@
+.modal {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--grey_2);
+    display: none;
+
+}
+
+.modal__window {
+    display: inline-block;
+    background-color: var(--white);
+    padding: 2em 2.7em;
+    border-radius: 0.5em;
+    color: var(--grey_4);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.modal__title {
+    color: var(--dark-sea-blue);
+    font-weight: 600;
+    font-size: 1.3em;
+    line-height: 1.8em;
+}
+
+.modal__close {
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    right: 1em;
+    top: 1em;
+}
+
+.modal__close:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1em;
+    height: 1em;
+    background: url('../../assets/icons/css_sprites.png') -10px -10px;
+}
