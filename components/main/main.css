@@ -90,4 +90,22 @@
     .menu {
         display: none;
     }
+
+    .component {
+        padding: 24px;
+    }
+
+    .histogram__wrapper {
+        width: 248px;
+    }
+
+    .wrapper-aside-main {
+        padding: 16px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .histogram__wrapper {
+        width: 220px;
+    }
 }
