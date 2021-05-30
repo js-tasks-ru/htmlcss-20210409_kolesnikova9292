@@ -49,3 +49,7 @@
 .tooltip__icon:hover + .tooltip__cloud {
     visibility: visible;
 }
+
+.icon {
+    color: green;
+}
