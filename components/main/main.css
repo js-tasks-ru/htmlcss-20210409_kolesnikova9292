@@ -57,11 +57,14 @@
 
 .card__calendar {
     align-self: stretch;
+    border: 1px solid var(--grey_3);
+    border-radius: 8px;
+    padding: 5px 15px;
+    font-size: 12px;
 }
 
 .card--with-calendar {
     padding: 30px 70px;
-    font-size: 12px;
     align-self: stretch;
 }
 
