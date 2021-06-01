@@ -67,7 +67,7 @@ h6 {
     min-height: 100vh;
 }
 
-.wrapper-template header {
+.header__template {
     background-color: var(--dove);
 }
 
@@ -102,11 +102,6 @@ h6 {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
 
-
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
 
 }
 

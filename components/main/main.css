@@ -55,13 +55,14 @@
     align-items: center;
 }
 
-.card .calendar {
+.card__calendar {
     align-self: stretch;
 }
 
 .card--with-calendar {
     padding: 30px 70px;
     font-size: 12px;
+    align-self: stretch;
 }
 
 .card__wrapper {
