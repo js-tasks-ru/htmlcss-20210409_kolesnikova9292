@@ -55,17 +55,17 @@
     align-items: center;
 }
 
-.card__calendar {
+.calendar {
     align-self: stretch;
     border: 1px solid var(--grey_3);
     border-radius: 8px;
-    padding: 5px 15px;
+    padding: 10px;
     font-size: 12px;
+    margin: 0 auto;
 }
 
-.card--with-calendar {
-    padding: 30px 70px;
-    align-self: stretch;
+.calendar_size_mini {
+    width: 17em;
 }
 
 .card__wrapper {
@@ -76,13 +76,18 @@
     margin: 0 -15px;
 }
 
-.card__header {
+.card__body {
+    width: 100%;
+}
+
+.card__footer {
     font-family: 'Roboto Medium';
     font-size: 21px;
     line-height: 25px;
     color: var(--black);
     display: block;
     margin-top: auto;
+    padding-top: 1em;
 }
 
 .histogram__wrapper {
