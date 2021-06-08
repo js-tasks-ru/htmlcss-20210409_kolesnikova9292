@@ -32,7 +32,7 @@
     grid-area: component;
     background-color: var(--white);
     padding: 48px;
-    box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+    box-shadow: 0 2px 4px rgba(33, 36, 41, 0.05);
     border-radius: 12px;
     height: 100%;
 }
@@ -46,13 +46,26 @@
     width: 350px;
     height: 367px;
     background: var(--white);
-    box-shadow: 0px 2px 4px var(--shadow);
+    box-shadow: 0 2px 4px var(--shadow);
     border-radius: 12px;
     margin: 15px auto;
     padding: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.calendar {
+    align-self: stretch;
+    border: 1px solid var(--grey_3);
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 12px;
+    margin: 0 auto;
+}
+
+.calendar_size_mini {
+    width: 17em;
 }
 
 .card__wrapper {
@@ -63,16 +76,45 @@
     margin: 0 -15px;
 }
 
-.card__header {
+.card__body {
+    width: 100%;
+}
+
+.card__footer {
     font-family: 'Roboto Medium';
     font-size: 21px;
     line-height: 25px;
     color: var(--black);
     display: block;
     margin-top: auto;
+    padding-top: 1em;
 }
 
 .histogram__wrapper {
     margin: 24px 0;
     width: 300px;
+}
+
+@media only screen and (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+
+    .component {
+        padding: 24px;
+    }
+
+    .histogram__wrapper {
+        width: 248px;
+    }
+
+    .wrapper-aside-main {
+        padding: 16px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .histogram__wrapper {
+        width: 220px;
+    }
 }
