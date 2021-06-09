@@ -1,12 +1,12 @@
 .modal {
-    position: absolute;
+    position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     background-color: var(--grey_2);
     display: none;
-
+    z-index: 888888888;
 }
 
 .modal__window {
