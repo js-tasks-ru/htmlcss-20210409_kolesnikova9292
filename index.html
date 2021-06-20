@@ -12,7 +12,11 @@
     <link rel="stylesheet" href="./components/mobile-menu/mobile-menu.css">
     <link rel="stylesheet" href="./components/footer/footer.css">
     <link rel="stylesheet" href="./04-lection2/01-histogram/histogram.css">
+        <link rel="stylesheet" href="./05-lection3/01-tooltip/tooltip.css">
     <link rel="stylesheet" href="./05-lection3/03-calendar/calendar.css">
+        <link rel="stylesheet" href="./05-lection3/02-modal/modal.css">
+        <link rel="stylesheet" href="./03-lection1/01-button/button.css">
+        <link rel="stylesheet" href="./06-lection4/01-avatar/avatar.css">
 </head>
 <body>
 <div class="wrapper">
@@ -96,7 +100,17 @@
         <div class="container">
             <div class="card__wrapper">
                 <div class="card">
-                    <div class="card__body"></div>
+                            <div class="tooltip">
+                                <svg class="tooltip__icon">
+                                    <use xlink:href="./assets/icons/icons.svg#help"></use>
+                                </svg>
+
+
+                                <div class="tooltip__cloud">
+                                    <span class="tooltip__name">Helper Text</span>
+                                </div>
+
+                            </div>
                     <p class="card__footer">Tooltip</p>
                 </div>
                 <div class="card">
@@ -167,10 +181,30 @@
                     <p class="card__footer">Calendar</p>
                 </div>
                 <div class="card">
-                    <div class="card__body"></div>
-                    <p class="card__footer">Modal dialog</p>
-                </div>
-                <div class="card">
+                            <button class="button button--primary" id="modal-open">Primary</button>
+
+
+                            <div class="modal" id="modal">
+
+                                <div class="modal__window">
+                                    <div class="modal__close" id="modal-close">
+                                        <svg>
+                                            <use xlink:href="./assets/icons/icons.svg#cross"></use>
+                                        </svg>
+                                    </div>
+                                    <h3 class="modal__title">Modal title</h3>
+                                    <p class="modal__text">Amet minim mollit non deserunt ullamco <br />
+                                        est sit aliqua dolor do amet sint. Velit officia consequat duis <br />
+                                        enim velit mollit. Exercitation veniam consequat sunt nostrud amet. <br />
+                                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet <br />
+                                        sint. Velit officia consequat duis enim velit mollit. Exercitation <br />
+                                        veniam consequat sunt nostrud amet.</p>
+                                </div>
+
+                            </div>
+                            <p class="card__footer">Modal dialog</p>
+                        </div>
+                        <div class="card">
 
                     <div class="card__body">
                         <div class="histogram">
@@ -203,26 +237,27 @@
 
                 </div>
                 <div class="card">
-                    <div class="card__body"></div>
-                    <p class="card__footer">Avatar</p>
+                            <a class="avatar" href="./assets/images/avatar1.jpg" download="avatar1">
+                                <img class="avatar__img" src="./assets/images/avatar1.jpg" alt="avatar1">
+                            </a>
+                            <p class="card__footer">Avatar</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            </main>
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer__descr">
+                        <h2 class="footer__text">About</h2>
+                        <p class="footer__content">This project is a collection of professionally
+                            designed, pre-built, fully responsive HTML
+                            snippets you can drop into your projects. Get started by
+                            checking out our free preview components, or browsing the
+                            PNG previews in the categories you're most curious about.</p>
+                    </div>
+                </div>
+            </footer>
         </div>
-    </main>
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__descr">
-                <h2 class="footer__text">About</h2>
-                <p class="footer__content">This project is a collection of professionally
-                    designed, pre-built, fully responsive HTML
-                    snippets you can drop into your projects. Get started by
-                    checking out our free preview components, or browsing the
-                    PNG previews in the categories you're most curious about.</p>
-            </div>
-        </div>
-    </footer>
-
-</div>
-
-</body>
+    </body>
+    <script src="./05-lection3/02-modal/index.js"></script>
 </html>

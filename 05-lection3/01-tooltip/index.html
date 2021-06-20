@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <!-- Страница с тултипом -->
 <html lang="ru">
+
 <head>
     <link rel="stylesheet" href="../../assets/css/main.css">
     <link rel="stylesheet" href="./tooltip.css">
     <title>Tooltip</title>
 </head>
+
 <body>
 
-<div class="tooltip">
+    <div class="tooltip">
+        <svg class="tooltip__icon">
+            <use xlink:href="../../assets/icons/icons.svg#help"></use>
+        </svg>
 
-    <div class="tooltip__icon"></div>
 
-    <div class="tooltip__cloud">
-        <span class="tooltip__name">Helper Text</span>
+        <div class="tooltip__cloud">
+            <span class="tooltip__name">Helper Text</span>
+        </div>
+
     </div>
 
-</div>
-
 </body>
+
 </html>
