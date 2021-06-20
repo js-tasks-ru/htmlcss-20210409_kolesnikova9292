@@ -43,13 +43,8 @@
     order: 2;
     width: 1.5em;
     height: 1.5em;
-    background: url('../../assets/icons/css_sprite_question.png') -10px -10px
 }
 
 .tooltip__icon:hover + .tooltip__cloud {
     visibility: visible;
-}
-
-.icon {
-    color: green;
 }
