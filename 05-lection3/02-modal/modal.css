@@ -6,7 +6,7 @@
     right: 0;
     background-color: var(--grey_2);
     display: none;
-    z-index: 888888888;
+    z-index: 1;
 }
 
 .modal__window {
